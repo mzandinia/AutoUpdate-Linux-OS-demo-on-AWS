@@ -49,7 +49,7 @@ It simulates all the processes, and you can see the final dashboard on Splunk af
   - public_subnet_cidr: the public subnet cidr block
   - private_subnet_cidr: the private subnet cidr block
 
-**Note: I intentionally used two subnets to demonstrate a cache update failure.**
+**Note: I intentionally used two subnets to demonstrate a cache update failure based on [AWS whitepaper](https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/design-for-failure.html).**
 
 ### Datasources:
 
